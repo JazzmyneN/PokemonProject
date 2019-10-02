@@ -7,46 +7,46 @@
         <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
         <link href="pokemondescription.css" rel="stylesheet">
     </head>
+
     <body>
-        <!--logo-->
-        <div class = "row1container">
-            <div class="logo">
-                <figure>
-                    <img src="Images/Logo.png" alt="logo" width="150px" height="150px">
-                </figure>
+        <div class="row">
+            <div class="col-1-4">
+                <div class="logo">
+                    <figure>
+                        <img src="Images/Logo.png" alt="logo" width="150px" height="150px">
+                    </figure>
+                </div>
             </div>
             <!--navigation links-->
-            <nav>
-                <ul>
-                    <li><a href="Homepage.html">Home</a>
-                    </li>
-                    <li><a href="Sitemap.html">Sitemap</a>
-                    </li>
-                    <li><a href="https://bulbapedia.bulbagarden.net/wiki/Type#Type_chart">Type Chart</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="col-1-4"><a href="Homepage.html">Home</a></div>
+            <div class="col-1-4"><a href="Sitemap.html">Sitemap</a></div>
+            <div class="col-1-4"><a href="https://bulbapedia.bulbagarden.net/wiki/Type#Type_chart">Type Chart</a></div>
         </div>
         <!--Pokemon Info-->
-        <div class = "pokemonContainer">
-            <img src="Images/pikachu.png" alt="Pikachu" width="200px" height="200px">
-            <div class = "pokestats">
+        <div class="row">
+            <div class="col-1-3">
+                <img src="Images/pikachu.png" alt="Pikachu" width="200px" height="200px">
+            </div>
+            <div class="col-1-3">
                 <h2>Pikachu</h2>
                 <p>
-                Pikachu&#8594; <a href="raichu.html">Raichu</a>
-                Weakness: Ground
+                    Pikachu&#8594; <a href="raichu.html">Raichu</a>
+                    <hr />
+                    Weakness: Ground
                 </p>
             </div>
-            <div class = "pokesummary">
+            <div class="col-1-3">
                 <p>
-                    This forest-dwelling Pokémon stores electricity in its cheeks, 
+                    This forest-dwelling Pokémon stores electricity in its cheeks,
                     so you'll feel a tingly shock if you touch it.
-                    It occasionally uses an electric shock to recharge a fellow Pikachu 
+                    It occasionally uses an electric shock to recharge a fellow Pikachu
                     that is in a weakened state.
                 </p>
             </div>
         </div>
         <!--footer-->
-        <footer>Made by: Jazzmyne, Colby, David, and Nayeli.</footer>
+        <div class="row">
+            <footer>Made by: Jazzmyne, Colby, David, and Nayeli</footer>
+        </div>
     </body>
 </html>
