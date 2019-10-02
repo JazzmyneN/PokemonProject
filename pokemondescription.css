@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: 'Fredoka One', cursive;
     background-color: #911d14;
     margin: 0;
@@ -8,7 +8,6 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 .logo {
     margin: 0;
@@ -38,3 +37,42 @@ a {
 .row1container  nav ul li {
     margin-left: 20px;
 }
+
+.pokemonContainer {
+    display: flex;
+    align-content: center;
+    width: 700px;
+}
+
+.pokemonContainer img {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.pokestats {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.pokesummary {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 450px;
+}
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
+}
+
+nav{
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -6px 6px #5c1212;
+}
+*/
