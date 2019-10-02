@@ -116,7 +116,7 @@ div.cell a {
 }
 
 body {
-  color: darkgray;
+  color: #bd0000;
   line-height: 0;
   font-family: Fredoka One;
   margin-left: auto;
@@ -133,13 +133,12 @@ body>header img {
 }
 
 a {
-  color: darkgray;
+  color: #bd0000;
   text-decoration: none;
 }
 
 a:hover {
-  color: darkgray;
-  ;
+  color: #bd0000;
 }
 
 .row {
